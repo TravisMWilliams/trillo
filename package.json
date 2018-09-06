@@ -1,10 +1,10 @@
 {
-  "name": "Trillo",
+  "name": "trillo",
   "version": "1.0.0",
   "description": "Trillo app",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/*.scss css/style.css -w",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server --browser='Google Chrome'",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
